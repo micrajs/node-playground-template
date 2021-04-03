@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/micrajs/micrajs/live/.assets/logo.png" width="25%" />
 </div>
 
-<h1 align="center">@micra/node-playground-template</h1>
+<h1 align="center">{{{PKG}}}</h1>
 
 <p align="center">
   <img alt="issues" src="https://img.shields.io/github/issues/micrajs/node-playground-template.svg">
