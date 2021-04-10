@@ -35,7 +35,7 @@ module.exports = {
         // [PATH, TEMPLATE]
         [src(NAME.PASCAL, `index.ts`), template('class.index')],
         [src(NAME.PASCAL, `types.ts`), template('class.types')],
-        [src(NAME.PASCAL, `tests/${NAME.PASCAL}.test.ts`), template('test.index')],
+        [src(NAME.PASCAL, `tests/${NAME.PASCAL}.test.ts`), template('class.test')],
       ];
 
       // Generate files

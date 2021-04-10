@@ -11,6 +11,7 @@ module.exports = {
     'class': {
       index: cwd('.config/cli/commands/class/templates/class.mustache'),
       types: cwd('.config/cli/commands/class/templates/types.mustache'),
+      test: cwd('.config/cli/commands/class/templates/test.mustache'),
     },
     'helper': {
       index: cwd('.config/cli/commands/helper/templates/helper.mustache'),
