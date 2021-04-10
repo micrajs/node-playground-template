@@ -1,6 +1,6 @@
 module.exports = {
   transform: {
-    '^.+\\.(t|j)sx?$': 'esbuild-jest',
+    '^.+\\.(t|j)sx?$': 'ts-jest',
   },
   runner: 'groups',
   testEnvironment: 'node',
