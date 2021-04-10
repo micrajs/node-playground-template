@@ -1,4 +1,4 @@
-const Class = {
+module.exports = {
   command: 'make:helper',
   description: 'Generate a new helper',
   arguments: [
@@ -47,5 +47,3 @@ const Class = {
     }
   },
 };
-
-module.exports = Class;

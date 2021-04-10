@@ -1,4 +1,4 @@
-const Class = {
+module.exports = {
   command: 'make:class',
   description: 'Generate a new class',
   arguments: [
@@ -35,6 +35,7 @@ const Class = {
         // [PATH, TEMPLATE]
         [src(NAME.PASCAL, `index.ts`), template('class.index')],
         [src(NAME.PASCAL, `types.ts`), template('class.types')],
+        [src(NAME.PASCAL, `tests/${NAME.PASCAL}.test.ts`), template('test.index')],
       ];
 
       // Generate files
@@ -54,5 +55,3 @@ const Class = {
     }
   },
 };
-
-module.exports = Class;

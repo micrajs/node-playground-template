@@ -1,6 +1,6 @@
 const { getNameFromPath } = require('../../utilities');
 
-const Class = {
+module.exports = {
   command: 'make:test',
   description: 'Generate a new test',
   arguments: [
@@ -53,5 +53,3 @@ const Class = {
     }
   },
 };
-
-module.exports = Class;
